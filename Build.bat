@@ -1,0 +1,1 @@
+msbuild Amazon.DynamoDBv2.Converters.proj
