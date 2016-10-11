@@ -31,7 +31,7 @@
     <RemoveDir Directories="$(OutputDir)" />
     <MakeDir Directories="$(OutputDir)" />
 	
-    <Exec Command="..\.nuget\nuget pack -Properties Configuration=Release -OutputDirectory &quot;$(OutputDir)&quot;" WorkingDirectory="Amazon.DynamoDBv2.Converters\" />
+    <Exec Command="..\.nuget\nuget pack Amazon.DynamoDBv2.Converters.csproj -Properties Configuration=Release -OutputDirectory &quot;$(OutputDir)&quot;" WorkingDirectory="Amazon.DynamoDBv2.Converters\" />
 
   </Target>
 

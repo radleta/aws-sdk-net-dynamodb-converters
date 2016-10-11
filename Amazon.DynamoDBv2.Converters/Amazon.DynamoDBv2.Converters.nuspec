@@ -13,8 +13,5 @@
     <releaseNotes>Added IPropertyConverter for DateTime and NullableDateTime which properly supports round trip.</releaseNotes>
     <copyright>Copyright 2014 Richard Adleta</copyright>
     <tags>aws-sdk property-converter converter dynamodb aws-dynamodb</tags>
-    <dependencies>
-      <dependency id="AWSSDK" version="2.1" />
-    </dependencies>
   </metadata>
 </package>
